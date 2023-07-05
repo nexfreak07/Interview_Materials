@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        body{
+            background-color: beige;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #p-tag{
+
+        }
+        .container{
+            font-size: 20px;
+            background-color: red;
+            border: 2px solid black;
+        }
+        header{
+            background-color: black;
+            color: white;
+
+
+        }
+        ul{
+            display: flex;
+            justify-content: flex-end;
+        }
+        header nav ul li{
+            margin:5px;
+            list-style: none;
+            cursor: pointer;
+            /* display: inline-block; */
+        }
+        li:hover{
+            font-size:1.2rem;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h3>This is header</h3>
+        <nav>
+
+            <ul>
+                <li class="btn btn-primary">Home</li>
+                <li>Item</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="h1-tag"></h1>
+    <div class="container">
+        <p id="p-tag">This is my first html</p>
+        <p>This is second para</p>
+    </div>
+    <!-- <h3 class="container">This is h3</h3> -->
+    <script>
+        const value = 3;
+        const obj2 = {};
+        const myString = "This is heading";
+        const myObj = {key1:"sdfjks", key2:"sff"};
+        myObj["key1"] = "dipta";
+        // myObj = obj2;
+        console.log(myObj)
+        const myElm = document.getElementById("h1-tag");
+        if(value ===1){
+            console.log(myElm);
+            myElm.innerHTML = "This is heading";
+        }
+        else{
+            myElm.innerHTML = "This is else part";
+        }
+        // console.log(myString);
+    </script>
+</body>
+</html>

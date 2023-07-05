@@ -1,0 +1,161 @@
+
+body
+{
+    background-color: #EDEDED;
+    margin: 10px;
+    padding: 10px;
+}
+.hr-line
+{
+    border-color: darkgrey;
+    border-style: dotted none none;
+    width: 50vw;
+    height: 50%;
+    border-width: 15px;
+    margin-left: 0%;
+
+}
+#name
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+.list-items
+{
+    margin-top: 5px;
+    list-style: none;
+    text-indent: 7px;
+    text-decoration: dotted;
+    padding-left: 0%;
+    margin-left: 1.25%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+#bio
+{
+    width: 50vw;
+    text-align: center;
+}
+#info
+{
+    list-style: none;
+    display: block;
+
+}
+.highlight
+{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #ad98da;
+    font-family: 'Righteous', cursive;
+}
+.inner-bio
+{
+    width: 50vw;
+    text-align: justify;
+}
+.cert-info{
+    position: relative;
+    bottom: 0.5em;
+}
+.border hr{
+    border-top: 1px solid rebeccapurple;
+}
+.parent
+{
+    margin: auto auto;
+    display: flex;
+    
+
+}
+#right-container
+{
+    width: 50vw;
+    text-align: justify;
+}
+.highlight-right
+{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #ad98da;
+    width: 46.3vw;
+    position: relative; bottom: 0.47em;
+    font-family: 'Righteous', cursive;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 210px auto; 
+    height: 14%;
+   
+}
+
+.grid-item-1
+{
+    width: 100%;
+    text-align: justify;
+    position: relative;
+    bottom: 20px;
+}
+.grid-item-2{
+    width: 100%;
+    text-align: justify;
+    position: relative;
+    bottom: 20px;
+}
+#experience-grids{
+  margin-left: 10px;
+}
+
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 11px;
+    padding: 4px;
+    background: #0196f9;
+    border: solid #1f628d 3px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #087cc4;
+    text-decoration: none;
+  }
+  .cert{
+    text-decoration: none ;
+    color: #000000;
+  }
+  .title
+  {
+    font-family: 'Fredoka One', cursive;
+  }
+  .semi-title
+  {
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+  }
+
+  @media screen and (max-width: 1100px){
+    #bio
+    {
+        width: 100%;
+    }
+    .inner-bio{
+        width: 100%;
+    }
+    #right-container{
+        width: 100%;
+    }
+    .parent
+    {
+        display: inline-block;
+    }
+    .highlight-right
+    {
+        width: 100%;
+    }
+  }
+
